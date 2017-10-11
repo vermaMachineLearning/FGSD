@@ -2,7 +2,7 @@
 
 Authors: Saurabh Verma and Zhi-Li Zhang
 
-## Welcome To The Family Of Graph Spectral Distances (NIPS 2017)
+## Welcome To The Family Of Graph Spectral Distances
 ## A New Family Of Graph Feature Representation
 
 Please cite our paper, if you use our code. Thanks!   
