@@ -5,7 +5,7 @@ load('G_mutag.mat');
 N=length(G);
 
 %Set histogram parameters.
-nbins=140000;
+nbins=140000;   
 binwidth=0.0001;
 
 %Create empty (sparse) feature matrix;
@@ -29,7 +29,7 @@ for i=1:N
     S=diag(fL)*ones_vector'+ones_vector*diag(fL)'-2*fL;
     
     %Compute (sparse) feature matrix.
-    X(i,:)= histcounts(RS{i}(:),nbins,'Binwidth',binwidth,'BinLimits',[0,nbins*binwidth]);
+    X(i,:)= histcounts(RS{i}(:),nbins,'Binwidth',binwidth,'BinLimits',[0,nbins*binwidth]); %Note that MATLAB histcounts function can limit the maximum nbins that are allowed. You can increase the limit by editing the histcounts.m file.
         
 end
 
