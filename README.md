@@ -1,4 +1,4 @@
-###NIPS 2017 Paper: Hunt For The Unique, Stable, Sparse And Fast Feature Learning On Graphs
+### NIPS 2017 Paper: Hunt For The Unique, Stable, Sparse And Fast Feature Learning On Graphs
 
 Authors: Saurabh Verma and Zhi-Li Zhang
 
