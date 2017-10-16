@@ -77,7 +77,7 @@ model.add(Dense(1, activation='sigmoid'))
 
 
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
-model.fit(feature_matrix, data_labels_binary, validation_split=0.1, epochs=100, batch_size=50)
+model.fit(feature_matrix, data_labels_binary, validation_split=0.1, epochs=20, batch_size=50)
 
 
 
